@@ -18,6 +18,7 @@ justify-content:center;
 
     display: flex;
     gap: 50px;
+
     
     
 
@@ -83,7 +84,7 @@ align-items:center;
 
 }
 .div-icons i{
-
+/* cor do icones e tamanho  */
 color:yellow;
 font-size:45px;
 margin-left:30px;
@@ -93,16 +94,16 @@ margin-left:30px;
 
 }
 .div-paragrafo p {
-
+/* cor do texto  */
 color: rgba(254, 255, 248, 1);
 font-size:40px;
 
 }
 .section-03{
 
-padding: 150px;
+padding: 200px;
 /* preencimento interno */
-background-image: url(imagem/pexels-didsss-1322466.jpg);
+background-image: url(imagem/architecture-3128917_1280.jpg);
 /* imagem de fundo  */
 background-attachment: fixed;
 /* posicionamento fixo */
@@ -143,3 +144,84 @@ box-shadow:5px 5px 10px rgb(255, 254, 254)
 
 
 }
+.section-04{
+/* aqui estamos estilizando a section-04 */
+background-color: rgb(0, 89, 255);
+/* cor de fundo da section */
+padding: 100px;
+/* preenchimento interno da section  */
+/* alinha as div */
+display: flex;  
+/* tornando a section flex /lado a lado */
+gap: 50px;
+/* espacamento entre as caixas  */
+align-items: center;
+/* alinhamento horizontal */
+
+justify-content:center ;
+/* alinhamento vertical  */
+}
+/* aqui estamos estilizando as 3 caixas (div) */
+.div-section-04{
+width: 400px;
+/*  */
+height: 350px;
+background-color: blue;
+
+
+}
+.div-star{
+    /* tamanho do texto e cor  */
+font-size: 30px;
+text-align: center;
+justify-content: center;
+gap: 5px;
+color: aliceblue;
+padding: 20px;
+
+
+}
+.div-star :hover{
+    /* transição  entre as letras  */
+
+ box-shadow: 5px 5px 10px rgb(207, 54, 3);
+ transition: 10px;
+
+
+}
+
+
+.div-dog{
+
+background-image: url(imagem/pexels-chevanon-1108099.jpg);
+/* nao repeti a imagem  */
+background-repeat: no-repeat;
+/* deixa ela cetralizada  */
+background-size: cover;
+background-position: center;
+padding: 30px;
+
+
+}
+.div-user{
+    /* tamanho do texto e cor  */
+    
+    font-size: 30px;
+    text-align: center;
+    color: azure;
+    padding: 50px;
+    
+
+
+
+
+}
+.div-user :hover{
+ 
+/* transição  entre as letras  */
+
+ box-shadow: 5px 5px 10px rgb(207, 54, 3);
+ transition: 10px;
+
+}
+
